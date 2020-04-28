@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="42" failures="0" name="com.baeldung.rest.karate.KarateIntegrationTest" time="0.079" errors="0" skipped="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Dev\Java8\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Dev\rest-testing-cucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Dev\rest-testing-cucumber"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Dev\Java8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\basava\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Dev\eclipse_j2ee\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4599474334570509177.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Dev\Java8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Dev/Java8/bin/../jre/bin/server;C:/Dev/Java8/bin/../jre/bin;C:/Dev/Java8/bin/../jre/lib/amd64;.;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Dev\Java8\bin;.;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Dev\Java8\bin;.;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Dev\Java8\bin;C:\Windows\System32;C:\Users\basava\AppData\Local\Microsoft\WindowsApps;;C:\Dev\eclipse_j2ee;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\basava"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="basava"/>
+    <property name="java.class.path" value="C:\Dev\eclipse_j2ee\plugins\org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Dev\Java8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\Dev\Java8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Dev\Java8\jre\lib\resources.jar;C:\Dev\Java8\jre\lib\rt.jar;C:\Dev\Java8\jre\lib\sunrsasign.jar;C:\Dev\Java8\jre\lib\jsse.jar;C:\Dev\Java8\jre\lib\jce.jar;C:\Dev\Java8\jre\lib\charsets.jar;C:\Dev\Java8\jre\lib\jfr.jar;C:\Dev\Java8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Dev\rest-testing-cucumber\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Data Upload to a web service" name="When users upload data on a project" time="0.006">
+    <skipped/>
+    <system-out>web - 2020-04-28 18:25:25,725 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.26.v20180806
+web - 2020-04-28 18:25:25,728 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7a22a3c2{/__admin,null,AVAILABLE}
+web - 2020-04-28 18:25:25,729 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@301aa982{/,null,AVAILABLE}
+web - 2020-04-28 18:25:25,732 [main] INFO  o.e.j.s.NetworkTrafficServerConnector - Started NetworkTrafficServerConnector@5fc930f0{HTTP/1.1}{0.0.0.0:8097}
+web - 2020-04-28 18:25:25,733 [main] INFO  org.eclipse.jetty.server.Server - Started @7130ms
+web - 2020-04-28 18:25:25,740 [qtp123629835-45] INFO  /__admin - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned &apos;null&apos;
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Data Upload to a web service" name="Then the server should handle it and return a success status" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Data Upload to a web service" name="Scenario: Data Upload to a web service" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Data Upload to a web service" name="Scenario: Data Upload to a web service" time="0.009"/>
+  <testcase classname="Scenario: Data retrieval from a web service" name="When users want to get information on the Cucumber project" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Data retrieval from a web service" name="Then the requested data is returned" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Data retrieval from a web service" name="Scenario: Data retrieval from a web service" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Data retrieval from a web service" name="Scenario: Data retrieval from a web service" time="0.006"/>
+  <testcase classname="Scenario: Testing valid GET endpoint" name="Given url &apos;http://localhost:8097/user/get&apos;" time="0"/>
+  <testcase classname="Scenario: Testing valid GET endpoint" name="When method GET" time="0"/>
+  <testcase classname="Scenario: Testing valid GET endpoint" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: Testing valid GET endpoint" name="Scenario: Testing valid GET endpoint" time="0.004"/>
+  <testcase classname="Scenario: Testing an invalid GET endpoint - 404" name="Given url &apos;http://localhost:8097/user/wrong&apos;" time="0"/>
+  <testcase classname="Scenario: Testing an invalid GET endpoint - 404" name="When method GET" time="0"/>
+  <testcase classname="Scenario: Testing an invalid GET endpoint - 404" name="Then status 404" time="0"/>
+  <testcase classname="Scenario: Testing an invalid GET endpoint - 404" name="Scenario: Testing an invalid GET endpoint - 404" time="0"/>
+  <testcase classname="Scenario: Testing the exact response of a GET endpoint" name="Given url &apos;http://localhost:8097/user/get&apos;" time="0"/>
+  <testcase classname="Scenario: Testing the exact response of a GET endpoint" name="When method GET" time="0"/>
+  <testcase classname="Scenario: Testing the exact response of a GET endpoint" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: Testing the exact response of a GET endpoint" name="And match $ == {id:&quot;1234&quot;,name:&quot;John Smith&quot;}" time="0"/>
+  <testcase classname="Scenario: Testing the exact response of a GET endpoint" name="Scenario: Testing the exact response of a GET endpoint" time="0.007"/>
+  <testcase classname="Scenario: Testing the exact response field value of a GET endpoint" name="Given url &apos;http://localhost:8097/user/get&apos;" time="0"/>
+  <testcase classname="Scenario: Testing the exact response field value of a GET endpoint" name="When method GET" time="0"/>
+  <testcase classname="Scenario: Testing the exact response field value of a GET endpoint" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: Testing the exact response field value of a GET endpoint" name="And match $.id == &quot;1234&quot;" time="0"/>
+  <testcase classname="Scenario: Testing the exact response field value of a GET endpoint" name="Scenario: Testing the exact response field value of a GET endpoint" time="0.006"/>
+  <testcase classname="Scenario: Testing that GET response contains specific field" name="Given url &apos;http://localhost:8097/user/get&apos;" time="0"/>
+  <testcase classname="Scenario: Testing that GET response contains specific field" name="When method GET" time="0"/>
+  <testcase classname="Scenario: Testing that GET response contains specific field" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: Testing that GET response contains specific field" name="And match $ contains {id:&quot;1234&quot;}" time="0"/>
+  <testcase classname="Scenario: Testing that GET response contains specific field" name="Scenario: Testing that GET response contains specific field" time="0.005"/>
+  <testcase classname="Scenario: Test GET response using markers" name="Given url &apos;http://localhost:8097/user/get&apos;" time="0"/>
+  <testcase classname="Scenario: Test GET response using markers" name="When method GET" time="0"/>
+  <testcase classname="Scenario: Test GET response using markers" name="Then status 200" time="0"/>
+  <testcase classname="Scenario: Test GET response using markers" name="And match $ == {id:&quot;#notnull&quot;,name:&quot;John Smith&quot;}" time="0"/>
+  <testcase classname="Scenario: Test GET response using markers" name="Scenario: Test GET response using markers" time="0.004"/>
+  <testcase classname="Scenario: Testing a POST endpoint with request body" name="Given url &apos;http://localhost:8097/user/create&apos;" time="0"/>
+  <testcase classname="Scenario: Testing a POST endpoint with request body" name="And request { id: &apos;1234&apos; , name: &apos;John Smith&apos;}" time="0"/>
+  <testcase classname="Scenario: Testing a POST endpoint with request body" name="When method POST" time="0"/>
+  <testcase classname="Scenario: Testing a POST endpoint with request body" name="Then status 200" time="0.001"/>
+  <testcase classname="Scenario: Testing a POST endpoint with request body" name="And match $ contains {id:&quot;#notnull&quot;}" time="0"/>
+  <testcase classname="Scenario: Testing a POST endpoint with request body" name="Scenario: Testing a POST endpoint with request body" time="0.005"/>
+</testsuite>

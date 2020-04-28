@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>karate/user.feature</title>
+</head>
+<body>
+<div>
+<div>Testing valid GET endpoint</div>
+<div>
+<div>url 'http://localhost:8097/user/get' passed</div>
+<div>method GET passed</div>
+<div>status 200 passed</div>
+</div>
+</div>
+<div>
+<div>Testing an invalid GET endpoint - 404</div>
+<div>
+<div>url 'http://localhost:8097/user/wrong' passed</div>
+<div>method GET passed</div>
+<div>status 404 passed</div>
+</div>
+</div>
+<div>
+<div>Testing the exact response of a GET endpoint</div>
+<div>
+<div>url 'http://localhost:8097/user/get' passed</div>
+<div>method GET passed</div>
+<div>status 200 passed</div>
+<div>match $ == {id:"1234",name:"John Smith"} passed</div>
+</div>
+</div>
+<div>
+<div>Testing the exact response field value of a GET endpoint</div>
+<div>
+<div>url 'http://localhost:8097/user/get' passed</div>
+<div>method GET passed</div>
+<div>status 200 passed</div>
+<div>match $.id == "1234" passed</div>
+</div>
+</div>
+<div>
+<div>Testing that GET response contains specific field</div>
+<div>
+<div>url 'http://localhost:8097/user/get' passed</div>
+<div>method GET passed</div>
+<div>status 200 passed</div>
+<div>match $ contains {id:"1234"} passed</div>
+</div>
+</div>
+<div>
+<div>Test GET response using markers</div>
+<div>
+<div>url 'http://localhost:8097/user/get' passed</div>
+<div>method GET passed</div>
+<div>status 200 passed</div>
+<div>match $ == {id:"#notnull",name:"John Smith"} passed</div>
+</div>
+</div>
+<div>
+<div>Testing a POST endpoint with request body</div>
+<div>
+<div>url 'http://localhost:8097/user/create' passed</div>
+<div>request { id: '1234' , name: 'John Smith'} passed</div>
+<div>method POST passed</div>
+<div>status 200 passed</div>
+<div>match $ contains {id:"#notnull"} passed</div>
+</div>
+</div>
+</body>
+</html>
